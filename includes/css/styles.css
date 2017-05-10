@@ -1,0 +1,506 @@
+*{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400; 
+}
+
+body{
+   background-color: #74AFAD;
+}
+
+video{
+   margin: 20px;
+}
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+footer {
+   background: #3B3738;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
+.unstyled > li > a{
+   color: #558C89;
+}
+
+#bigCallout{
+   margin-top: 10px;
+}
+
+.well{
+   background-color: #ECECEA;
+}
+
+.calloutImage{
+   height: 100px;
+   margin-top: -80px;
+   cursor: pointer;
+   margin-left: 20px;
+}
+
+.well >.page-header> h1{
+   color: #558C89;
+}
+
+.btn-primary{
+   background-color: #D9853B;
+   border-color: #C37835;
+}
+
+.btn-link{
+   color: #74AFAD;
+}
+
+.btn-link:hover{
+   color: #558C89;
+}
+
+#features{
+   margin-top: 70px;
+}
+
+.panel-title{
+   text-align: center;
+}
+
+.country_name{
+   color: #558C89;
+   font-size: 38px;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-weight: 500;
+   line-height: 1.1;
+   padding: 10px 0;
+}
+
+.informations{
+   background-color: #ECECEA;
+   margin: 20px;
+}
+
+.informations > img{
+   width: 100%;
+}
+
+.informations > table{
+   margin: 10px;
+   width: 100%;
+}
+
+.informations > table > tr{
+   height: 30px;
+}
+
+.informations > .panel-heading{
+   height: 30px;
+   padding: 6px;
+   background-color: #D9853B;
+}
+
+.informations > .panel-heading > h3{
+   color: #ECECEA;
+}
+
+.mytrip_content{
+   box-sizing: border-box;
+   padding: 30px;
+}
+
+.panel> .row > p{
+   font-weight: 600;
+   text-indent: 50px;
+}
+
+.panel > img{
+   margin: 0 0 30px 30px;
+   display: none;
+}
+
+.panel > p{
+   margin-left: 30px;
+   font-size: 14px;
+}
+
+.panel > h3 > span{
+   margin-right: 10px;
+   vertical-align: middle;
+}
+
+
+hr{
+   padding: 0;
+   margin: 0;
+   margin-top: 20px;
+   background-color: #D9853B;
+   height: 2px;
+}
+
+.go_top{
+   height: 10px;
+   width: 25px;
+   border-radius: 0 0px 5px 5px;
+   background-color: #D9853B;
+   float: right;
+   font-family: 'Hammersmith One', sans-serif;
+   line-height: 12px;
+   font-size: 10px;
+   text-align: center;
+   cursor: pointer;
+   margin-bottom: 40px;
+   margin-top: -2px;
+}
+
+.caret.caret-reversed {
+    border-top-width: 0;
+    border-bottom: 4px solid #3B3738;
+    margin-top: -5px;
+    margin-left: 0px; 
+}
+
+.list-content{
+   width: 400px;
+}
+
+.panel> .row{
+   box-sizing: border-box;
+   padding: 20px;
+}
+
+iframe{
+   width: 600px;
+   height: 450px;
+   margin: 20px;
+   border: 0;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   #searchInput{
+      width: 200px;
+      height: 30px;
+      font-size: 12px;
+      font-weight: 400px;
+      background-color: #ECECEA;
+      margin-top: 3px;
+
+   }
+
+   .active-color{
+      background-color: #D9853B !important;
+   }
+
+   .navbar{
+      height: 40px;
+      background-color: #558C89;
+   }
+
+   .nav > li > a{
+      font-weight: 600;
+      color: #3B3738; 
+   }
+   .nav > li > a > span{
+      margin-right: 5px;
+      vertical-align: middle;
+   }
+
+   .searchBtn{
+      width: 32px;
+      height: 32px;
+      background-color: #3B3738;
+      line-height: 10px;
+      padding-left: 8px;
+      margin-top: 3px;
+   }
+
+   .navbar-nav>.dropdown>a .caret {
+      border-top-color: #3B3738;
+      border-bottom-color: #3B3738;
+   }
+
+   .navbar-brand
+   {
+      padding: 5px 15px;
+   }
+
+   .navbar-brand > img
+   {
+      height: 40px;
+   }
+
+   .dropdown-menu{
+      background-color: #ECECEA;
+   }
+
+   .dropdown-menu > li > a:hover{
+      background-image: linear-gradient(to bottom,#558C89 0,#558C89 100%)
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel .item { height: 400px; }
+
+#myCarousel {
+   margin-top: 60px;
+}
+
+.carousel-caption {
+   font-size: 24px;
+   background-color: rgba(26, 42, 41, 0.7);
+   border-radius: 10px;
+   /*box-sizing: borde-box;
+   padding: 10px 30px 20px;*/
+}
+.carousel-caption a {
+   color: #74AFAD;
+   text-decoration: none;
+   font-size: 32px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+   background: url('../../images/Amsterdam_medium_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/Chicago_medium_02.jpg') bottom center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/Galery_medium_03.jpg') bottom center no-repeat;
+}
+
+/* --------------------------------------
+   Gallery
+   -------------------------------------- */
+
+   .gallery_content{
+      background-color: #ECECEA;
+      box-sizing: border-box;
+      padding: 20px;
+      
+      border-radius: 5px;
+   }
+
+   .gallery_trip > ul > li{
+      margin: 5px;
+      padding: 0;
+      cursor: pointer;
+   }
+
+   .glyphicon-camera{
+      vertical-align: middle;
+      margin-right: 10px;
+   }
+
+   .gallery_photo{
+      min-height: 500px;
+      margin-top: 70px;
+      margin-bottom: 20px;
+      padding: 30px;
+   }
+
+   .gallery_content > ul{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+   }
+
+   .gallery_photo > ul > li{
+      margin: 0px 0px 20px;
+      cursor: pointer;
+   }
+
+   .gallery_photo > .panel-heading{
+      position: relative;
+   }
+
+   .gallery_photo > .panel-heading > a{
+      margin-top: 10px;
+      position: absolute;
+   }
+
+   .gallery_photo > .panel-heading > a > span{
+      vertical-align: middle;
+      margin-right: 10px;
+   }
+
+   .gallery-gallery{
+      min-height: 600px;
+   }
+
+   .gallery_trip > a{
+      margin-top: 10px;
+   }
+
+   .gallery-gallery > a{
+      padding: 5px;
+      position: relative;
+      cursor: pointer;
+      display: block;
+   }
+
+   .gallery-gallery > a >h3{
+      position: absolute;
+      width: 80%;
+      height: 80%;
+      padding: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      top: 50%;
+      margin-top: -0.5em;
+      left: 0px;
+      right: 0;
+      text-align: center;
+      line-height: 1em;
+      font-size: 24px;
+      font-weight: 700;
+      /*color: rgba(200, 200, 200, 1);*/      
+      text-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
+      color: #fff;
+}
+
+.new_paragraph{
+   text-indent: 50px;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+   .calloutImage{
+      display: block;
+   }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+   iframe{
+   width: 100% !important;
+   height: 300px;
+   margin: 0;
+   margin-bottom: 30px;
+   }
+
+   #myCarousel .item { height: 310px; }
+   
+   #slide1 {
+      background: url('../../images/Amsterdam_small_01.jpg') top center no-repeat;
+   }
+   
+   #slide2 {
+      background: url('../../images/Chicago_small_02.jpg') bottom center no-repeat;
+   }
+   
+   #slide3 {
+      background: url('../../images/Galery_small_03.jpg') bottom center no-repeat;
+   }
+
+   .panel > img{
+      display: none;
+   }
+
+}
+
+@media (max-width: 1024px) {
+
+   iframe{
+   width: 400px;
+   height: 250px;
+   }
+
+
+   .calloutImage{
+      height: 150px;
+      margin-top: -20px;
+   }
+
+   #searchInput{
+      display: none;
+   }
+   .searchBtn{
+      display: none;
+   }
+
+   .carousel-caption {
+      font-size: 16px;
+   }
+   
+   .carousel-caption h4 {
+      font-size: 22px;
+   }
+}
+
+@media (min-width: 1024px) {
+
+   
+
+   .calloutImage{
+      height: 200px;
+      margin-top: -80px;
+   }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+   .panel > img{
+      display: initial;
+   }
+
+   .calloutImage{
+      height: 300px;
+      margin-top: -130px;
+   }
+
+   #myCarousel .item { height: 500px; }
+   
+   #slide1 {
+      background: url('../../images/Amsterdam_large_01.jpg') top center no-repeat;
+      background-size: cover;
+   }
+   
+   #slide2 {
+      background: url('../../images/Chicago_large_02.jpg') bottom center no-repeat;
+      background-size: cover;
+   }
+   
+   #slide3 {
+      background: url('../../images/Galery_large_03.jpg') bottom center no-repeat;
+      background-size: cover;
+   }
+
+	
+}
+
+
+/*for gallery -------------------------------------------------------------------------------------------------------------*/
+

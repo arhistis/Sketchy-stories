@@ -1,0 +1,444 @@
+*{
+	margin: 0;
+	padding: 0;
+	cursor: default;
+}
+
+body{
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a, a:hover, a:active, a:visited, a:link{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+hr{
+	background-color: rgba(26, 42, 41, 0.7);
+	  height: 4px;
+	  /* border-bottom: 1px solid black; */
+	  border-radius: 10px;
+}
+
+p{
+	text-indent: 50px;]
+	display: block;
+}
+
+#header{
+	height: 400px;
+	background-image: url("images/sketchbook2.png");
+	box-sizing: border-box;
+	padding: 10px;
+	padding-left: 60px;
+	margin-top: 20px;
+	background-size: cover;
+	right: 15px;
+}
+
+#container{
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+#menu{
+	width: 100%;
+	height: 46px;
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+#menu > li{
+	float:left;
+	height: 100%;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.about{
+	margin-left: 290px !important;
+}
+
+.menu_li{
+	min-width: 110px;
+	margin: 0px 30px;
+	height: 30px !important;
+	line-height: 30px !important;
+	margin-top: 8px !important;
+	border-radius: 20px;
+	transition: all 100ms ease;
+}
+
+.menu_li:hover{
+	color: black !important;
+	background-color: white;
+}
+
+.menu_li:hover > a{
+	color: black;
+}
+
+#menu > li:first-child{
+	width: 10px;
+	height: 50px;
+	border-radius: 50% 0 0 50%;
+	position: absolute;
+	left: -10px;
+	top: -2px;
+}
+
+#menu > li:last-child{
+	width: 10px;
+	height: 46px;
+	border-radius: 0 50% 50% 0;
+	position: absolute;
+	right: -6px;
+	border-right: 2px solid black;
+	border-left: 3px solid black;
+}
+
+#menu > li:last-child:after{
+	width: 12px;
+	height: 36px;
+	top: 5px;
+	left: 5px;
+	border-radius: 0 40% 40% 0;
+	position: absolute;
+	content: "";
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #000000 0%, #1e1e1e 9%, #141414 39%, #0a0a0a 51%, #000000 54%, #111111 79%, #1c1c1c 88%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(9%,#1e1e1e), color-stop(39%,#141414), color-stop(51%,#0a0a0a), color-stop(54%,#000000), color-stop(79%,#111111), color-stop(88%,#1c1c1c), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #000000 0%,#1e1e1e 9%,#141414 39%,#0a0a0a 51%,#000000 54%,#111111 79%,#1c1c1c 88%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #000000 0%,#1e1e1e 9%,#141414 39%,#0a0a0a 51%,#000000 54%,#111111 79%,#1c1c1c 88%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #000000 0%,#1e1e1e 9%,#141414 39%,#0a0a0a 51%,#000000 54%,#111111 79%,#1c1c1c 88%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #000000 0%,#1e1e1e 9%,#141414 39%,#0a0a0a 51%,#000000 54%,#111111 79%,#1c1c1c 88%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	z-index: 0;
+}
+
+.pen-head{
+	width: 220px;
+	height: 50px !important;
+	border-right: 1px solid black;
+	border-radius: 0 3px 3px 0;
+	position: absolute;
+	top: -2px;
+}
+
+.pen-head > span{
+	padding-right: 10px;
+}
+
+.pen-head > div{
+	float: left;
+	margin: 5px 0px 0 20px;
+	background-size: contain;
+	height: 22px;
+	border-radius: 50px;
+	width: 89px;
+	box-shadow: inset -1px -1px 2px rgba(255,255,255,0.3), inset 2px 2px 5px 0px rgba(0,0,0,0.8);
+	margin-top: 14px;
+	background-image: url("images/pen-inside.png");
+}
+
+.gradient{
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #000000 0%, #1e1e1e 9%, #141414 39%, #0a0a0a 51%, #000000 54%, #111111 79%, #1c1c1c 88%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(9%,#1e1e1e), color-stop(39%,#141414), color-stop(51%,#0a0a0a), color-stop(54%,#000000), color-stop(79%,#111111), color-stop(88%,#1c1c1c), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #000000 0%,#1e1e1e 9%,#141414 39%,#0a0a0a 51%,#000000 54%,#111111 79%,#1c1c1c 88%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #000000 0%,#1e1e1e 9%,#141414 39%,#0a0a0a 51%,#000000 54%,#111111 79%,#1c1c1c 88%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #000000 0%,#1e1e1e 9%,#141414 39%,#0a0a0a 51%,#000000 54%,#111111 79%,#1c1c1c 88%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #000000 0%,#1e1e1e 9%,#141414 39%,#0a0a0a 51%,#000000 54%,#111111 79%,#1c1c1c 88%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+#content{
+	margin-top: 0px;
+	/*height: 500px;*/
+	background-color: white;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 40px;
+	background-image: url("images/symphony.png");
+	/*box-shadow: inset -1px -1px 4px rgba(255,255,255,0.3), inset 2px 2px 5px 0px rgba(0,0,0,0.8);*/
+	border-top: 5px solid rgba(26, 42, 41, 0.7);
+	border-bottom: 5px solid rgba(26, 42, 41, 0.7);
+	position: relative;
+}
+
+.content-row > .col-12{
+
+}
+
+.btn-primary{
+   background-color: #D9853B;
+   border-color: #C37835;
+}
+
+.btn-link{
+   color: #74AFAD;
+}
+
+.btn-link:hover{
+   color: #558C89;
+}
+
+#lightGallery > li{
+	padding: 5px;
+}
+
+.g-image{
+	width: 100%;
+	height: 300px;
+	background-color: gray;
+	cursor: pointer;
+}
+
+iframe{
+	width: 600px;
+	height: 450px;
+	margin: 20px;
+	border: 0;
+}
+
+.contact > img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.gallery-image{
+	background-color: gray;
+	cursor: pointer;
+	position: relative;
+}
+
+.plus{
+	
+	color:rgba(255,255,255,.85);
+	font-size: 22px;
+}
+
+.gallery-image:hover .overlay{
+	opacity: 1;
+}
+
+.overlay{
+	background:rgba(0,0,0,.75);
+	text-align:center;
+	opacity:0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+.c8{
+	height: 400px;
+}
+
+.c4{
+	height: 200px;
+}
+
+.c2{
+	height: 200px;
+}
+
+.c2l{
+	height: 400px;
+}
+
+.c10{
+	height: 600px;
+}
+
+.up{
+	top: -200px;
+}
+
+.down{
+	top: 200px;
+}
+
+.c8 > .overlay > span, 
+.c2l > .overlay > span {
+	position: absolute;
+	top: 200px;
+}
+
+.c2 > .overlay > span, 
+.c4 > .overlay > span {
+	position: absolute;
+	top: 92px;
+}
+ 
+.c10 > .overlay > span {
+	position: absolute;
+	top: 300px;
+}
+
+.title{
+	position: absolute;
+	margin: 0 auto;
+	left: 47%;
+	right: 53%;
+	top: 180px;
+}
+
+.about-cell{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.icon{
+	font-size: 90px;
+	text-align: center;
+}
+
+.link{
+	color: #0066CC;
+	text-indent: 0px;
+	cursor: pointer;
+}
+
+.contact-cell > .icon > a > i, .contact-cell > a > img{
+	cursor: pointer;
+}
+a > i{
+	color: #333 !important;
+}
+
+.contact-cell > a > p{
+	text-align: center;
+}
+
+.a-center{
+	text-align: center;
+}
+
+.i1{
+	background-image: url('images/sketch1.2.jpg');
+}
+
+.i5{
+	background-image: url('images/sketch7.jpg');
+	background-size: cover;
+}
+
+.i8{
+	background-image: url('images/sketch4.jpg');
+	background-size: cover;
+}
+
+.i2{
+	background-image: url('images/sketch2.2.jpg');
+	background-size: cover;
+}
+.i3{
+	background-image: url('images/sketch8.jpg');
+	background-size: cover;
+}
+.i4{
+	background-image: url('images/sketch5.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.i6{
+	background-image: url('images/sketch9.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.i7{
+	background-image: url('images/sketch10.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.i9{
+	background-image: url('images/sketch6.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.i10{
+	background-image: url('images/sketch-book.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+}
+
+.no-shadow{
+	background-image: none !important;
+}
+
+.no-shadow > span{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+}
+.no-shadow > span:before{
+	position: absolute;
+	top: -8px;
+	left: 10px;
+}
+
+.carousel-caption {
+   font-size: 24px;
+   background-color: rgba(26, 42, 41, 0.7);
+   border-radius: 10px;
+   padding-bottom: 0 !important;
+   margin-bottom: 10px;
+}
+.carousel-caption a {
+   color: #74AFAD;
+   text-decoration: none;
+   font-size: 32px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+}
+
+#myCarousel .item { height: 390px; }
+
+#slide1 {
+   background: url('images/sketch1.2.jpg') top no-repeat;
+   background-size: contain;
+
+}
+
+#slide2 {
+   background: url('images/sketch2.2.jpg') center no-repeat;
+}
+
+#slide3 {
+   background: url('images/sketch3.1.jpg') center no-repeat;
+   background-size: contain;
+}
+
+
+
+
+.g1{
+	background-image: url('images/sketch1.jpg');
+	background-size: cover;
+}
